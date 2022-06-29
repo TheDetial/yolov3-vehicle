@@ -1,0 +1,15 @@
+CUDA_VISIBLE_DEVICES=0 python evaluation.py \
+--model yolov4 \
+--loadckpt ./trained/voc0712/cspdarknet53/loss_2022_06_22_14_08_16/Epoch226-train_loss3.133-val_loss3.410.pth \
+--input_height 416 \
+--input_width 416 \
+--conf_thres 0.3 \
+--nms_thres 0.3 \
+--img_dir /ssd2/jidong/common_datasets/VOCdevkit \
+--save_dir ./test/voc2007_map/ \
+--letterbox_image \
+--anchors_path ./gen_anchors/voc2007_2012/voc_anchors.txt \
+--classes_path ./list/voc2007_2012/voc_classes.txt \
+--MINOVERLAP 0.5 \
+--map_mode 0 \
+--map_vis \
