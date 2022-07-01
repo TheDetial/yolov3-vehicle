@@ -9,9 +9,9 @@ import torch.nn.functional as F
 from .config import *
 
 # @function:    cspdarknet53结构定义
-# @author:      jidong
-# @date:        2022/06/17
-# @last_edit:
+# @author:      TheDetial
+# @date:        2022/06
+# @last_edit:   2022/06
 
 # mish激活函数
 class Mish(nn.Module):
