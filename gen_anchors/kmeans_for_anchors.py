@@ -127,8 +127,8 @@ if __name__ == '__main__':
     # -------------------------------------------------------------#
     #   载入数据集，可以使用VOC的xml
     # -------------------------------------------------------------#
-    # path = '/ssd2/jidong/common_datasets/VOCdevkit/VOC2007/Annotations'
-    path = '/ssd2/jidong/common_datasets/VOCdevkit/VOC2028/Annotations'
+    # path = '/home/data/VOCdevkit/VOC2007/Annotations'
+    path = '/home/data/VOCdevkit/VOC2028/Annotations'
     # -------------------------------------------------------------#
     #   载入所有的xml
     #   存储格式为转化为比例后的width,height
