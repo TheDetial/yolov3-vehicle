@@ -9,7 +9,7 @@ General object detection
 + tensorboard (1.6.0)
 
 ## Networks
-CSPdarknet-53+Mish++SPP+Head
+CSPdarknet-53+Mish+SPP+Head
 
 ## Acknowledgement
 This work is mainly inspired by  
